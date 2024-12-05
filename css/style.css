@@ -67,7 +67,7 @@ padding-top: 10pt;
 }
 
 .local img {
-  width: 350px;
+  width: 400px;
 }
 
 .reviews {
@@ -79,6 +79,10 @@ padding-top: 10pt;
 .bettacard {
   background-color: #e6a4ce;
   padding: 40pt;
+}
+
+.bettacard img {
+  width: 400px;
 }
 
 .info {
