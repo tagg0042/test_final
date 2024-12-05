@@ -1,7 +1,123 @@
 :root {
   --primary-color: #d458a6;
+  --secondary-color: #fff0fc;
+}
+
+h1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 80px;
+padding-top: 10pt;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300pt;
 }
 
 .navbar {
     background-color: var(--primary-color);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+}
+
+.hero img {
+padding-top: 10pt;
+}
+
+.aboutmini {
+  background-color: #eaeaea;
+}
+
+.aboutmini img {
+  height: 175pt;
+  padding-bottom: 10pt;
+}
+
+.skippinginfomini {
+  padding-left: 40pt;
+  padding-bottom: 20pt;
+}
+
+.productsmini {
+  padding-left: 40pt;
+  display: grid;
+}
+
+.productsmini img {
+  width: 250px;
+}
+
+.abouttheowner {
+ height: 750x;
+}
+
+.abouttheowner img {
+  height: 300px;
+}
+
+.history {
+  height: 750px;
+  background-color: #f3bade;
+}
+
+.history img {
+ height: 300px;
+}
+
+.local img {
+  width: 350px;
+}
+
+.reviews {
+  padding-left: 40pt;
+  background-color: #d458a6;
+  height: 525px;
+}
+
+.bettacard {
+  background-color: #e6a4ce;
+  padding: 40pt;
+}
+
+.info {
+  padding: 40pt;
+  background-color: #eaeaea;
+}
+
+.lineup img{
+  padding-left: 40pt;
+  width: 400px;
+}
+
+footer {
+  background-color: #984078;
+  height: 75pt;
+  padding-top: 10pt;
+  padding-left: 15pt;
+}
+
+@media (min-width: 800px) {
+  p {
+    width: 600px;
+  }
+
+  .hero img {
+    padding-top: 10pt;
+    width: 200px;
+    }
+
+  .productsmini {
+    padding-left: 25pt;
+    display: inline-block;
+  }
+
+  .productsmini h1 {
+    padding-left: 15pt;
+  }
+
+  .reviews {
+    height: 400px;
+  }
 }
